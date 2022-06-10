@@ -1,0 +1,106 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    color: greenyellow;
+    text-align: center;
+}
+
+#contenedor {
+    width: 1000px;
+    height: 400px;
+
+    border: 2px solid greenyellow;
+    margin: 30px auto;
+
+    background-image: url(images/fond.jpg);
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.contenedor1 {
+    width: 1000px;
+    height: 350px;
+    background: linear-gradient(greenyellow, #581845, #1F2121 );
+    border: 2px solid greenyellow;
+    margin: 30px auto;
+    position: relative;
+
+
+}
+
+
+.mich{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    z-index: 2;
+
+    background:  url(images/mich1-removebg-preview.png) repeat-x 0px 0px;
+    background-size: 67px 67px;
+    background-position-x: 0px; 
+
+
+
+}
+.mich1{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    z-index: 2;
+
+    background:  url(images/mich2-removebg-preview.png) repeat-x 0px 0px;
+    background-size: 67px 67px;
+    background-position-x: 0px; 
+
+
+
+}
+.mich2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    z-index: 2;
+
+    background:  url(images/mich3-removebg-preview.png) repeat-x 0px 0px;
+    background-size: 67px 67px;
+    background-position-x: 0px; 
+   
+
+
+}
+ 
+.img{
+    margin: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+#choosebutton1, #choosebutton2, #choosebutton3{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-inline: auto;
+    border-radius: 1000px;
+    
+    background-color: greenyellow
+  
+    
+}
+
+img{
+    margin: 170px;
+    width: 100px;
+    height: 80px;
+}
+

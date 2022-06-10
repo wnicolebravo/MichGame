@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "nombre": "Chicho",
+    "mensaje": "me gustan los mimitos,me das mimitos?",
+    "audio":"sonidos/mich1.mp3",
+    "imagen":"images/mich1-removebg-preview.png",
+    "pagina":"game.html"
+  },
+  {
+    "id":2,
+    "nombre": "Nino",
+    "mensaje": "dame pollito humane",
+    "audio":"sonidos/mich2.mp3",
+    "imagen":"images/mich2-removebg-preview.png",
+    "pagina":"game1.html"
+  },
+  {
+    "id":3,
+    "nombre": "GUCHO ANSIUDIUS",
+    "mensaje": "HOLA KARENNNNNNNNNN DAME POLLITO POLLITO POLLITO",
+    "audio":"sonidos/mich3.mp3",
+    "imagen":"images/mich3-removebg-preview.png",
+    "pagina":"game2.html"
+  }
+]

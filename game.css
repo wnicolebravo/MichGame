@@ -1,0 +1,103 @@
+body{
+    background-image: url(images/fond.jpg);
+
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+h1{
+    font-family: 'Chakra Petch', sans-serif;
+    color: greenyellow;
+    text-align: center;
+    
+}
+
+.mich{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    z-index: 2;
+
+    background:  url(images/mich1-removebg-preview.png) repeat-x 0px 0px;
+    background-size: 67px 67px;
+    background-position-x: 0px; 
+
+
+
+}
+.mich1{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    z-index: 2;
+
+    background:  url(images/mich2-removebg-preview.png) repeat-x 0px 0px;
+    background-size: 67px 67px;
+    background-position-x: 0px; 
+
+
+
+}
+.mich2{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 20px;
+    left: 165px;
+    z-index: 2;
+
+    background:  url(images/mich3-removebg-preview.png) repeat-x 0px 0px;
+    background-size: 67px 67px;
+    background-position-x: 0px; 
+   
+
+
+}
+
+#game{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px auto;
+    background: linear-gradient(greenyellow, #581845, #1F2121 );
+    overflow: hidden;
+}
+#Mich{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    position: relative;
+    top: 400px;
+    left: 190px;
+    z-index: 1000000;
+}
+.block{
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+.hole{
+    width: 40px;
+    height: 20px;
+    background: linear-gradient(greenyellow, #581845, #1F2121 );
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
