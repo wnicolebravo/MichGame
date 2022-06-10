@@ -60,7 +60,7 @@ var blocks = setInterval(function(){
     var characterLeft = parseInt(window.getComputedStyle(mich).getPropertyValue("left"));
     var drop = 0;
     if(characterTop <= 0){
-        Swal.fire("Game over. Pollitos ganados: "+(counter-9));
+        Swal.fire("Game over. Puntos: "+(counter-9));
         clearInterval(blocks);
        
     }
