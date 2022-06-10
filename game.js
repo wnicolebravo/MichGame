@@ -60,14 +60,11 @@ var blocks = setInterval(function(){
     var characterLeft = parseInt(window.getComputedStyle(mich).getPropertyValue("left"));
     var drop = 0;
     if(characterTop <= 0){
-        Swal.fire({
-            title: `Game over. Score:`+(counter-9),
-            background: "#008000",
-            color: "white"
-        });
+        Swal.fire("Game over. Pollitos ganados: "+(counter-9));
         clearInterval(blocks);
-        location.reload();
+       
     }
+   
     for(var i = 0; i < currentBlocks.length;i++){
         let current = currentBlocks[i];
         let iblock = document.getElementById("block"+current);
@@ -96,3 +93,4 @@ var blocks = setInterval(function(){
         mich.style.top = characterTop - 0.5 + "px";
     }
 },1);
+
