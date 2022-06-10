@@ -7,6 +7,10 @@ h1{
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 #contenedor {
     width: 1000px;
     height: 400px;
