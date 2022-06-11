@@ -67,7 +67,7 @@ var blocks = setInterval(function(){
             color: "white",
         }).then(
             clearInterval(blocks),
-            setTimeout( function() { window.location.href = "intro.html"; }, 2000)
+            setTimeout( function() { window.location.href = "index.html"; }, 2000)
         )
     }
    
