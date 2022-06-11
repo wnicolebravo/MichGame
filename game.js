@@ -60,9 +60,15 @@ var blocks = setInterval(function(){
     var characterLeft = parseInt(window.getComputedStyle(mich).getPropertyValue("left"));
     var drop = 0;
     if(characterTop <= 0){
-        Swal.fire("Game over. Puntos: "+(counter-9));
-        clearInterval(blocks);
-       
+        Swal.fire({
+            title: "Game over. Puntos: "+(counter-8),
+            text: "Empezamos otra vez",
+            background: "#008000",
+            color: "white",
+        }).then(
+            clearInterval(blocks),
+            setTimeout( function() { window.location.href = "intro.html"; }, 2000)
+        )
     }
    
     for(var i = 0; i < currentBlocks.length;i++){
@@ -93,4 +99,3 @@ var blocks = setInterval(function(){
         mich.style.top = characterTop - 0.5 + "px";
     }
 },1);
-
